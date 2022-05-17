@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="violin" size="0.150000 0.200000"/>
+        <ImageTarget name="pusheen" size="0.200000 0.183486"/>
+        <ImageTarget name="baloncuklar" size="0.200000 0.220000"/>
+        <ImageTarget name="ar_image" size="0.200000 0.220000"/>
+        <ImageTarget name="book.Front" size="0.115000 0.161999"/>
+        <ImageTarget name="book.Right" size="0.019000 0.162263"/>
+        <ImageTarget name="book.Left" size="0.019000 0.162263"/>
+        <ImageTarget name="book.Back" size="0.115000 0.161999"/>
+        <ImageTarget name="Mac.Front" size="0.095000 0.086956"/>
+        <ImageTarget name="Mac.Right" size="0.074000 0.087039"/>
+        <ImageTarget name="Mac.Left" size="0.074000 0.087039"/>
+        <ImageTarget name="Mac.Back" size="0.095000 0.086956"/>
+        <ImageTarget name="Mac.Top" size="0.095000 0.074002"/>
+        <ImageTarget name="Mac.Bottom" size="0.095000 0.074002"/>
+        <ImageTarget name="BigMac1.Front" size="0.095000 0.086956"/>
+        <ImageTarget name="BigMac1.Right" size="0.074000 0.087039"/>
+        <ImageTarget name="BigMac1.Left" size="0.074000 0.087039"/>
+        <ImageTarget name="BigMac1.Back" size="0.095000 0.086956"/>
+        <ImageTarget name="BigMac1.Top" size="0.095000 0.074002"/>
+        <ImageTarget name="BigMac1.Bottom" size="0.095000 0.074002"/>
+        <MultiTarget name="book">
+            <Part name="book.Left" translation="-0.057500001043081284 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="book.Right" translation="0.057500001043081284 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="book.Front" translation="0 0 0.009499999694526196" rotation="AD: 1 0 0 0"/>
+            <Part name="book.Back" translation="0 0 -0.009499999694526196" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="Mac">
+            <Part name="Mac.Left" translation="-0.04749999940395355 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Mac.Right" translation="0.04749999940395355 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Mac.Front" translation="0 0 0.03700000047683716" rotation="AD: 1 0 0 0"/>
+            <Part name="Mac.Back" translation="0 0 -0.03700000047683716" rotation="AD: 0 1 0 180"/>
+            <Part name="Mac.Top" translation="0 0.04349999874830246 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Mac.Bottom" translation="0 -0.04349999874830246 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="BigMac1">
+            <Part name="BigMac1.Left" translation="-0.04749999940395355 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="BigMac1.Right" translation="0.04749999940395355 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="BigMac1.Front" translation="0 0 0.03700000047683716" rotation="AD: 1 0 0 0"/>
+            <Part name="BigMac1.Back" translation="0 0 -0.03700000047683716" rotation="AD: 0 1 0 180"/>
+            <Part name="BigMac1.Top" translation="0 0.04349999874830246 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="BigMac1.Bottom" translation="0 -0.04349999874830246 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
